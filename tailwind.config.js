@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'palette-mosaic': ['"Palette Mosaic"', 'cursive'],
+        'montserrat': ['"Montserrat"', 'sans-serif'],
       },
     },
   },

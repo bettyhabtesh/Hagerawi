@@ -1,8 +1,8 @@
-import Landing from "./Components/Landing";
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
-    <div >
+    <div className='font-montserrat' >
       <Landing/>
     </div>
   );

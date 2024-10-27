@@ -6,7 +6,7 @@ const Filters = () => {
         {filters.map((filter, index) => (
           <button
             key={index}
-            className="whitespace-nowrap px-4 py-2 bg-purple-800 rounded-full hover:bg-purple-600 focus:outline-none transition">
+            className="whitespace-nowrap px-4 py-2 rounded-full hover:bg-[#7D677D] focus:outline-none transition">
             {filter}
           </button>
         ))}
