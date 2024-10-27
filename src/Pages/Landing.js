@@ -3,6 +3,10 @@ import Filters from '../Components/Filters'
 import NavBar from '../Components/NavBar'
 import Card from '../Components/TopCard'
 import TrendingGallery from '../Components/Trending'
+import NewlyReleasedCards from '../Components/NewlyReleased'
+import SimilarArtists from '../Components/SimilarArtists'
+import SimilarArts from '../Components/SimilatArts'
+import Footer from '../Components/Footer'
 const Landing = () => {
   return (
     <>
@@ -11,7 +15,13 @@ const Landing = () => {
       <Filters/>
       <Card/>
     </div>
+    <div className='bg-[#121212]'>
      <TrendingGallery/>
+     <NewlyReleasedCards/>
+     <SimilarArtists />
+     <SimilarArts/>
+     <Footer/>
+     </div>
     </>
   )
 }
